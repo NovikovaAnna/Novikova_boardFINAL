@@ -1,4 +1,3 @@
-// src/components/BoardsPage.tsx
 import React, { useState } from 'react';
 import Board from '../Board.tsx';
 import { IBoard } from '../models';
@@ -14,7 +13,7 @@ const initialBoards: IBoard[] = [
             { id: 'task-2', title: 'Задача 2', completed: true },
         ],
     },
-    // Добавьте больше досок и задач по желанию
+
 ];
 
 const BoardsPage: React.FC = () => {
