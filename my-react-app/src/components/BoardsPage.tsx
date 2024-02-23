@@ -14,6 +14,30 @@ const initialBoards: IBoard[] = [
         ],
     },
 
+    {
+        id: 'board-2',
+        name: 'Доска 2',
+        tasks: [
+            { id: 'task-1', title: 'Задача 1', completed: false },
+            { id: 'task-2', title: 'Задача 2', completed: true },
+        ],
+    },
+    {
+        id: 'board-3',
+        name: 'Доска 3',
+        tasks: [
+            { id: 'task-1', title: 'Задача 1', completed: false },
+            { id: 'task-2', title: 'Задача 2', completed: true },
+        ],
+    },
+    {
+        id: 'board-4',
+        name: 'Доска 4',
+        tasks: [
+            { id: 'task-1', title: 'Задача 1', completed: false },
+            { id: 'task-2', title: 'Задача 2', completed: true },
+        ],
+    },
 ];
 
 const BoardsPage: React.FC = () => {
